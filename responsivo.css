@@ -1,0 +1,161 @@
+@media (max-width: 1000px) {
+    main .container div {
+        margin: auto;
+    }
+
+    main .container-main img {
+        display: none;
+    }
+
+    h2 {
+        margin-left: 50px;
+    }
+
+    div h3 {
+        margin-left: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .contato input {
+        display: flex;
+        width: 100%;
+    }    
+    input {
+        margin: 12px;
+    }
+}
+
+@media (min-height: 631px) {
+    .container-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 0px 20px;
+    }
+    .chamada-form{
+        margin: auto;
+        width: 600px;
+    }
+    .texto-form {
+        padding-left: 50px;
+    }
+    .textarea {
+        width: 500px;
+        height: 100px;
+    }
+    .pagina-contato {
+        margin-top: 0px;
+    }
+
+    .contato input {
+        display: flex;
+        width: 100%;   
+    }
+
+    .botao {
+        text-align: center;
+    }
+    .submit {
+        height: 30px;
+    }
+}
+
+@media (max-width: 889px) {
+    .titulo-form {
+        font-size: 25px;
+    }
+    .texto-form {
+        font-size: 20;
+    } 
+}
+
+@media (max-width: 630px) {
+    nav {
+        display: none;
+    }
+
+    main .container-menu img {
+        display: none;
+    }
+    .chamada-form {
+        width: 450px;
+    }
+    .titulo-form {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .texto-form {
+        margin-right: 20px;
+        font-size: 15px;
+    } 
+
+    .container-menu {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #checkbox-menu {
+        position: absolute;
+        opacity: 0;
+    }
+
+    label {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+
+    label span {
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        transition: 0.25s ease-in-out;
+    }
+    
+    label span:nth-child(1) {
+        top: 0;
+    }
+    label span:nth-child(2) {
+        top: 8px;
+    }
+    label span:nth-child(3) {
+        top: 16px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(2) {
+        transform: rotate(45deg);
+        top: 8px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(3) {
+        opacity: 0;
+    }
+
+    .contato input {
+        display: flex;
+        width: 80%;     
+    }
+}
