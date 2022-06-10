@@ -180,6 +180,7 @@ main .container-main img {
 
 .chamada-form {
     width: 50%;
+    margin-left: 50px;
 }
 
 .titulo-form {
@@ -198,6 +199,11 @@ main .container-main img {
 
 .form {
     margin-top: 20px;
+    
+}
+
+.pagina-contato {
+    margin-left: 50px;
 }
 
 .contato input {
