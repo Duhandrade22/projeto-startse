@@ -76,7 +76,8 @@
         font-size: 25px;
     }
     .texto-form {
-        font-size: 20;
+        
+        font-size: 20px;
     } 
 }
 
@@ -89,15 +90,17 @@
         display: none;
     }
     .chamada-form {
-        width: 450px;
+        width: 350px;
+        
     }
     .titulo-form {
-        margin-right: 20px;
-        font-size: 20px;
+        margin: auto;
+        font-size: 30px;
     }
     .texto-form {
-        margin-right: 20px;
-        font-size: 15px;
+        padding-left: 0;
+        font-size: 20px;
+        
     } 
 
     .container-menu {

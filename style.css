@@ -170,6 +170,7 @@ main .container-main img {
 
 .desafio {
     background-color: white;
+    width: 90%;
     max-width: 980px;
     margin: 20px auto;
     border-radius: 5px;
