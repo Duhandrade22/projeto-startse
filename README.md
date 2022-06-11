@@ -1,6 +1,6 @@
 # projeto-startse
 
-## 📚 Landing page criada para estudo
+## 📚 Pagina criada para estudo
 
 ![projeto-startse](https://user-images.githubusercontent.com/100982195/173165055-3dd85f25-d913-467b-b067-554561331f83.png)
 
