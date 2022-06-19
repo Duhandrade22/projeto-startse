@@ -27,6 +27,10 @@ header .container {
     margin: auto;
 }
 
+#checkbox-menu {
+    display: none;
+}
+
 header nav ul {
     display: flex;
 }
@@ -102,6 +106,8 @@ background-color: #0080ed;
 
 form [type="submit"]:hover {
     cursor: pointer;
+    background-color: rgba(0, 128, 237, 0.75);
+    transform: translateY(-2px);
 }
 
 main .container-main img {
@@ -244,4 +250,5 @@ textarea {
 
 .submit:hover {
     background-color: #3fa2f8;
+    transform: translateY(-2px);
 }
